@@ -1,0 +1,16 @@
+body{
+    background: #222831;
+    color:white;
+}
+.contenedor{
+    border: 1px solid white;
+    padding: 2em;
+}
+.encabezado{
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+}
+.infor{
+    color: #fff;
+}
