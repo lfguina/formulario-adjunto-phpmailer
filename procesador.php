@@ -88,7 +88,7 @@ if($error==""){
     
         //Recipients
         $mail->setFrom($email, "Administrador");
-        $mail->addAddress('lacuentaquerecibe@gmail.com');     // Add a recipient
+        $mail->addAddress($destinatario);     // Add a recipient
        
         //Attachments
         $mail->addAttachment($destino);         // Add attachments
